@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego PPT</title>
+    <script src="https://kit.fontawesome.com/44485b0623.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="piedra" class="elementos" onclick="juega('piedra')">
+        <i class="fas fa-hand-rock"></i>
+    </div>
+    <div id="papel" class="elementos" onclick="juega('papel')">
+        <i class="fas fa-hand-paper"></i>
+    </div>
+    <div id="tijera" class="elementos" onclick="juega('tijera')">
+        <i class="fas fa-hand-scissors"></i>
+    </div>
+
+    <h2>Usuario: <span id="pu">0</span></h2>
+    <h2>Maquina: <span id="pm">0</span></h2>
+    <script src="script.js"></script>
+</body>
+</html>
